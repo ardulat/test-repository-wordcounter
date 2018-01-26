@@ -8,6 +8,7 @@ public class App
     }
     
     public static int wordcount(String s) {
-        return 0;
+    		String[] words = s.split("\\s+");
+		return words.length;
     }
 }
